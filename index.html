@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta name="author" content="Felice" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="container">
+      <div>
+        <label>ID</label><br />
+        <input
+          type="number"
+          min="0"
+          id="key"
+          placeholder="Enter the ID key"
+          required
+        />
+      </div>
+      <div>
+        <label>Date</label><br />
+        <input type="date" name="date" id="date" />
+      </div>
+    </section>
+    <!-- Description -->
+    <section class="container">
+      <div>
+        <label>Description</label><br />
+        <input type="text" id="description" placeholder="Enter Description" />
+      </div>
+    </section>
+    <!-- Time inputs -->
+    <section class="container">
+      <div class="timeInputs">
+        <label>Start Time</label><br />
+        <input type="time" id="startTime" />
+      </div>
+
+      <div class="timeInputs">
+        <label>End Time</label><br />
+        <input type="time" id="endTime" />
+      </div>
+    </section>
+    <section class="container">
+      <button type="submit">Submit</button>
+    </section>
+
+    <!-- Write to this element -->
+    <section class="container">
+      <ul class="result"></ul>
+    </section>
+
+    <!-- Try to create a more organized entry with flexbox & spans -->
+
+    <script src="js/main.js"></script>
+    <!-- <script src="js/dataStore.js"></script> -->
+  </body>
+</html>

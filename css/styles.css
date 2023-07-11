@@ -1,0 +1,59 @@
+/* Basic resets */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 130%;
+  line-height: 150%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  margin: 1em;
+}
+
+.timeInputs {
+  margin: 20px;
+}
+
+input {
+  flex-basis: 300px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid grey;
+  font-size: 1.2em;
+}
+
+button {
+  width: 200px;
+  margin: auto;
+  font-size: 150%;
+  padding: 20px;
+  background-color: rgb(180, 216, 172);
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(201, 230, 194);
+}
+
+.result {
+  font-size: 1.5em;
+  padding: 50px;
+}
+
+.result li {
+  margin: 1em 0;
+}
